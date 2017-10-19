@@ -1,0 +1,1 @@
+/usr/bin/cc -g   CMakeFiles/lab6.dir/main.c.o CMakeFiles/lab6.dir/mem.c.o CMakeFiles/lab6.dir/mem_debug.c.o  -o lab6 

@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/vladlensky/CLionProjects/lab6/main.c
+stdio.h
+-
+mem.h
+/home/vladlensky/CLionProjects/lab6/mem.h
+
+/home/vladlensky/CLionProjects/lab6/mem.c
+signal.h
+-
+mem.h
+/home/vladlensky/CLionProjects/lab6/mem.h
+
+/home/vladlensky/CLionProjects/lab6/mem.h
+stddef.h
+-
+stdint.h
+-
+stdio.h
+-
+sys/mman.h
+-
+
+/home/vladlensky/CLionProjects/lab6/mem_debug.c
+mem.h
+/home/vladlensky/CLionProjects/lab6/mem.h
+
